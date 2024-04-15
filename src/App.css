@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/*========================================*/
+/*=================RESET==================*/
+/*========================================*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-family: "Patrick Hand", cursive;
+  font-size: 16px;
+}
+
+body {
+  background-color: #05292E;
+  color: white;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  height: 30px;
+  border: none;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+button {
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+/*========================================*/
+/*==================APP===================*/
+/*========================================*/
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 1024px;
+  margin: 0 auto;
+
+}
+
+.app__container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__from{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.app__input{
+  border-radius: 5px 0 0 5px;
+}
+
+.app__btn{
+  background-color: #71A821;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.app__btn:hover{
+  filter: brightness(1.1);
+}
+
+.hero {
+  position: relative;
+  height: 300px; 
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__content {
+  position: absolute;
+  bottom: 20%;
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.hero__title {
+  min-width: 350px; 
+}
+
