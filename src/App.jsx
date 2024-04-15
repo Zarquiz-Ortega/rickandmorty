@@ -33,9 +33,9 @@ function App() {
           :
           <div>
             <section>
-              <div className="hero" style={{ backgroundImage: 'url(../public/img/fonfo.png)' }}>
+              <div className="hero" style={{ backgroundImage: 'url(../img/fonfo.png)' }}>
                 <div className="hero__content">
-                  <img className="hero__title" src="../public/img/textpng.png" alt="" />
+                  <img className="hero__title" src="../img/textpng.png" alt="" />
                 </div>
               </div>
             </section>
